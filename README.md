@@ -1,9 +1,5 @@
 # 1TD076-Data-Engineering-2-Project
 
-## Git Workflow Instructions
-
-Welcome to our project! Follow these instructions to set up your environment and start contributing.
-
 ## Project Git Workflow
 
 This document outlines the Git workflow used for this project. Following these steps ensures code consistency, facilitates review, and maintains stable `main` and `development` branches.
@@ -18,8 +14,8 @@ This document outlines the Git workflow used for this project. Following these s
 
 1.  **Clone the Repository (First time only):**
     ```bash
-    git clone <repository-url>
-    cd <repository-name>
+    git clone git@github.com:alexandersundquist/1TD076-Data-Engineering-2-Project.git
+    cd 1TD076-Data-Engineering-2-Project
     ```
 
 2.  **Ensure `development` is Up-to-Date:** Before starting any new work, switch to the `development` branch and pull the latest changes:
@@ -64,7 +60,7 @@ This document outlines the Git workflow used for this project. Following these s
 
 8.  **Code Review and Approval:**
     * Your PR will be reviewed.
-    * **IMPORTANT:** Only the designated project lead [Your Name/Username Here] can approve and merge Pull Requests into the `development` branch.
+    * **IMPORTANT:** Only the designated project lead can approve and merge Pull Requests into the `development` branch.
     * Address any feedback by making changes locally on your feature branch, committing them, and pushing again to the *same* branch. The PR will update automatically.
 
 9.  **Merging:** Once the PR is approved, the project lead will merge it into the `development` branch.
@@ -87,9 +83,4 @@ This document outlines the Git workflow used for this project. Following these s
 * Always branch from `development`.
 * Do work in dedicated feature/bugfix branches.
 * Merge back into `development` via Pull Requests.
-* PRs require approval from [Your Name/Username Here] before merging.
 * Keep `main` stable and only merge tested `development` code into it for releases.
-
----
-
-Remember to replace `<repository-url>`, `<repository-name>`, `<branch-type>/<short-description>`, `<your-branch-name>`, and `[Your Name/Username Here]` with your specific project details.
